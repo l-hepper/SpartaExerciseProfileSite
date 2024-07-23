@@ -1,3 +1,37 @@
-h1 {
-    color: red;
+body {
+    background-color:darkslategrey;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    height: 100%;
 }
+
+nav {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:hover {
+    color: white;
+}
+
+.box-1 {
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    border: 1px solid red;
+}
+
+
